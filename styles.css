@@ -1,5 +1,7 @@
 body {
     background-color: #4056A1;
+    margin: 0;
+    padding: 0;
 }
 
 .section-1 {
@@ -74,3 +76,36 @@ button:hover {
     cursor: pointer;
 }
 
+.section-2 {
+    background-color: whitesmoke;
+    color: #4056A1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.section2-header {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+.subsection-3 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.subsection-3 img{
+    height: 150px;
+    width: auto;
+}
+
+.subsection-3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-top: 2.5px;
+}
